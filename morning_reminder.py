@@ -52,4 +52,4 @@ def skype_message(EMAIL,PSW,ID_CHAT,content):
 if __name__=="__main__":
     data = daily_reminder(NOTION_TOKEN,DB_ID)
     skype_message(EMAIL,PSW,ID_CHAT,data)
-    print("All done!")
+    #print("All done!")
