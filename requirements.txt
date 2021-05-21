@@ -1,0 +1,6 @@
+pandas
+requests
+dateparser
+skpy
+numpy
+python-decouple
