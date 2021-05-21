@@ -35,7 +35,7 @@ def daily_reminder(NOTION_TOKEN,DB_ID):
                 name_task=row["Name"]
                 
                 if row["Alert_parsed"].hour !=0:
-                        time=row["Alert_parsed"].strftime("%h:%S%M")
+                        time=row["Alert_parsed"].strftime("%H:%M")
                 else:   time="9:00" #if I didn't select an hour, let's say it's in the morning
 
                 notion_text+= f"\n{symbol} {name_task} - {time}"
