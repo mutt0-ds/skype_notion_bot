@@ -1,5 +1,5 @@
 # Skype + Notion Notification Bot
-![logo](https://github.com/mutt0-ds/skype_notion_bot/blob/main/media/logo.png)
+![logo](https://github.com/mutt0-ds/skype_notion_bot/blob/main/media/bot_logo.png)
 
 This is a small project I've worked on during my free time, while trying to optimize my Notion database using [their new API](https://developers.notion.com/docs/getting-started) and send daily reminders about the tasks/reminders I have scheduled for a specific day, based on my Notion notes.
 ## Installation
